@@ -2,7 +2,7 @@
 
 // Modified to add device support
 
-rust_library_rlib {
+rust_library {
     name: "liblazy_static",
     host_supported: true,
     crate_name: "lazy_static",
