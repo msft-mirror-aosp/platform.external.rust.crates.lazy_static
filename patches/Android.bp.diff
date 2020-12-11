@@ -1,0 +1,20 @@
+--- Android.bp	2020-12-14 18:47:48.373508351 +0900
++++ Android.bp.new	2020-12-14 18:47:04.753908034 +0900
+@@ -2,8 +2,17 @@
+ 
+ rust_library {
+     name: "liblazy_static",
++    // has rustc warnings
+     host_supported: true,
+     crate_name: "lazy_static",
+     srcs: ["src/lib.rs"],
+     edition: "2015",
++    apex_available: [
++        "//apex_available:platform",
++        "com.android.resolv",
++    ],
++    min_sdk_version: "29",
+ }
++
++// dependent_library ["feature_list"]
++//   doc-comment-0.3.3
