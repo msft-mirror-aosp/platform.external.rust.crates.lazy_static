@@ -11,9 +11,6 @@
       "name": "libsqlite3-sys_device_test_src_lib"
     },
     {
-      "name": "lazy_static_device_test_tests_no_std"
-    },
-    {
       "name": "android_logger_device_test_src_lib"
     },
     {
