@@ -2,7 +2,22 @@ diff --git a/Android.bp b/Android.bp
 index 5033c27..843fa1c 100644
 --- a/Android.bp
 +++ b/Android.bp
-@@ -71,23 +71,6 @@ rust_defaults {
+@@ -45,9 +45,6 @@
+     test_suites: ["general-tests"],
+     auto_gen_config: true,
+     edition: "2015",
+-    rustlibs: [
+-        "libdoc_comment",
+-    ],
+ }
+ 
+ rust_test_host {
+@@ -70,28 +67,10 @@
+     auto_gen_config: true,
+     edition: "2015",
+     rustlibs: [
+-        "libdoc_comment",
+         "liblazy_static",
      ],
  }
  
@@ -26,14 +41,3 @@ index 5033c27..843fa1c 100644
  rust_test_host {
      name: "lazy_static_host_test_tests_test",
      defaults: ["lazy_static_defaults_lazy_static"],
-@@ -112,4 +95,9 @@ rust_library {
-     crate_name: "lazy_static",
-     srcs: ["src/lib.rs"],
-     edition: "2015",
-+    apex_available: [
-+        "//apex_available:platform",
-+        "com.android.resolv",
-+        "com.android.virt",
-+    ],
-+    min_sdk_version: "29",
- }
