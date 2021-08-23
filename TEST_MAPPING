@@ -2,22 +2,181 @@
 {
   "presubmit": [
     {
-      "name": "quiche_device_test_src_lib"
-    },
-    {
-      "name": "lazy_static_device_test_tests_test"
-    },
-    {
-      "name": "libsqlite3-sys_device_test_src_lib"
-    },
-    {
       "name": "android_logger_device_test_src_lib"
+    },
+    {
+      "name": "android_logger_device_test_tests_config_log_level"
+    },
+    {
+      "name": "android_logger_device_test_tests_default_init"
+    },
+    {
+      "name": "android_logger_device_test_tests_multiple_init"
     },
     {
       "name": "authfs_device_test_src_lib"
     },
     {
+      "name": "base64_device_test_tests_decode"
+    },
+    {
+      "name": "base64_device_test_tests_encode"
+    },
+    {
+      "name": "base64_device_test_tests_helpers"
+    },
+    {
+      "name": "crossbeam-epoch_device_test_src_lib"
+    },
+    {
+      "name": "crossbeam-epoch_device_test_tests_loom"
+    },
+    {
+      "name": "crossbeam-utils_device_test_src_lib"
+    },
+    {
+      "name": "crossbeam-utils_device_test_tests_atomic_cell"
+    },
+    {
+      "name": "crossbeam-utils_device_test_tests_cache_padded"
+    },
+    {
+      "name": "crossbeam-utils_device_test_tests_parker"
+    },
+    {
+      "name": "crossbeam-utils_device_test_tests_sharded_lock"
+    },
+    {
+      "name": "crossbeam-utils_device_test_tests_thread"
+    },
+    {
+      "name": "crossbeam-utils_device_test_tests_wait_group"
+    },
+    {
+      "name": "doh_unit_test"
+    },
+    {
+      "name": "jni_device_test_src_lib"
+    },
+    {
+      "name": "jni_device_test_tests_executor"
+    },
+    {
+      "name": "jni_device_test_tests_executor_nested_attach"
+    },
+    {
+      "name": "jni_device_test_tests_java_integers"
+    },
+    {
+      "name": "jni_device_test_tests_jmap"
+    },
+    {
+      "name": "jni_device_test_tests_jni_api"
+    },
+    {
+      "name": "jni_device_test_tests_jni_global_refs"
+    },
+    {
+      "name": "jni_device_test_tests_threads_attach_guard"
+    },
+    {
+      "name": "jni_device_test_tests_threads_detach"
+    },
+    {
+      "name": "jni_device_test_tests_threads_detach_daemon"
+    },
+    {
+      "name": "jni_device_test_tests_threads_explicit_detach"
+    },
+    {
+      "name": "jni_device_test_tests_threads_explicit_detach_daemon"
+    },
+    {
+      "name": "jni_device_test_tests_threads_explicit_detach_permanent"
+    },
+    {
+      "name": "jni_device_test_tests_threads_nested_attach_daemon"
+    },
+    {
+      "name": "jni_device_test_tests_threads_nested_attach_guard"
+    },
+    {
+      "name": "jni_device_test_tests_threads_nested_attach_permanently"
+    },
+    {
+      "name": "keystore2_km_compat_test"
+    },
+    {
+      "name": "keystore2_selinux_concurrency_test"
+    },
+    {
+      "name": "keystore2_selinux_test"
+    },
+    {
+      "name": "keystore2_test"
+    },
+    {
       "name": "lazy_static_device_test_src_lib"
+    },
+    {
+      "name": "lazy_static_device_test_tests_test"
+    },
+    {
+      "name": "legacykeystore_test"
+    },
+    {
+      "name": "libapkverify.integration_test"
+    },
+    {
+      "name": "libapkverify.test"
+    },
+    {
+      "name": "libsqlite3-sys_device_test_src_lib"
+    },
+    {
+      "name": "logger_device_test_config_log_level"
+    },
+    {
+      "name": "logger_device_test_default_init"
+    },
+    {
+      "name": "logger_device_test_env_log_level"
+    },
+    {
+      "name": "logger_device_test_multiple_init"
+    },
+    {
+      "name": "logger_device_unit_tests"
+    },
+    {
+      "name": "microdroid_manager_test"
+    },
+    {
+      "name": "quiche_device_test_src_lib"
+    },
+    {
+      "name": "unicode-xid_device_test_src_lib"
+    },
+    {
+      "name": "unicode-xid_device_test_tests_exhaustive_tests"
+    },
+    {
+      "name": "virtualizationservice_device_test"
+    },
+    {
+      "name": "xml-rs_device_test_src_analyze"
+    },
+    {
+      "name": "xml-rs_device_test_src_lib"
+    },
+    {
+      "name": "xml-rs_device_test_tests_event_reader"
+    },
+    {
+      "name": "xml-rs_device_test_tests_event_writer"
+    },
+    {
+      "name": "xml-rs_device_test_tests_streaming"
     }
   ]
 }
