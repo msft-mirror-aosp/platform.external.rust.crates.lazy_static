@@ -11,6 +11,7 @@
   ],
   "device": true,
   "min-sdk-version": "29",
+  "vendor_available": true,
   "run": true,
   "test-blocklist": [
     "tests/no_std.rs"
