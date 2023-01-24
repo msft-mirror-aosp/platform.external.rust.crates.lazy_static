@@ -5,19 +5,10 @@
       "path": "external/rust/crates/base64"
     },
     {
-      "path": "external/rust/crates/clap"
+      "path": "external/rust/crates/clap/2.33.3"
     },
     {
-      "path": "external/rust/crates/crossbeam-deque"
-    },
-    {
-      "path": "external/rust/crates/crossbeam-epoch"
-    },
-    {
-      "path": "external/rust/crates/crossbeam-queue"
-    },
-    {
-      "path": "external/rust/crates/crossbeam-utils"
+      "path": "external/rust/crates/hashbrown"
     },
     {
       "path": "external/rust/crates/jni"
@@ -61,13 +52,16 @@
       "name": "VtsAidlDiceTargetTest"
     },
     {
-      "name": "ZipFuseTest"
-    },
-    {
-      "name": "apkdmverity.test"
-    },
-    {
       "name": "authfs_device_test_src_lib"
+    },
+    {
+      "name": "bluetooth_with_facades.test"
+    },
+    {
+      "name": "compos_verify.test"
+    },
+    {
+      "name": "composd_cmd.test"
     },
     {
       "name": "diced_open_dice_cbor_test"
@@ -86,6 +80,9 @@
     },
     {
       "name": "doh_unit_test"
+    },
+    {
+      "name": "fd_server.test"
     },
     {
       "name": "keystore2_client_tests"
@@ -115,19 +112,31 @@
       "name": "legacykeystore_test"
     },
     {
-      "name": "libapkverify.integration_test"
+      "name": "libkmr_hal_test"
     },
     {
-      "name": "libapkverify.test"
+      "name": "libpvmfw_avb.integration_test"
     },
     {
-      "name": "libidsig.test"
+      "name": "libuwb_adaptation_jni_tests"
+    },
+    {
+      "name": "libuwb_uci_jni_rust_tests"
     },
     {
       "name": "microdroid_manager_test"
     },
     {
-      "name": "virtualizationservice_device_test"
+      "name": "rialto_test"
+    },
+    {
+      "name": "virtualizationmanager_device_test"
+    },
+    {
+      "name": "vm.test"
+    },
+    {
+      "name": "vmbase_example.integration_test"
     }
   ],
   "presubmit-rust": [
@@ -138,13 +147,16 @@
       "name": "VtsAidlDiceTargetTest"
     },
     {
-      "name": "ZipFuseTest"
-    },
-    {
-      "name": "apkdmverity.test"
-    },
-    {
       "name": "authfs_device_test_src_lib"
+    },
+    {
+      "name": "bluetooth_with_facades.test"
+    },
+    {
+      "name": "compos_verify.test"
+    },
+    {
+      "name": "composd_cmd.test"
     },
     {
       "name": "diced_open_dice_cbor_test"
@@ -163,6 +175,9 @@
     },
     {
       "name": "doh_unit_test"
+    },
+    {
+      "name": "fd_server.test"
     },
     {
       "name": "keystore2_client_tests"
@@ -192,19 +207,31 @@
       "name": "legacykeystore_test"
     },
     {
-      "name": "libapkverify.integration_test"
+      "name": "libkmr_hal_test"
     },
     {
-      "name": "libapkverify.test"
+      "name": "libpvmfw_avb.integration_test"
     },
     {
-      "name": "libidsig.test"
+      "name": "libuwb_adaptation_jni_tests"
+    },
+    {
+      "name": "libuwb_uci_jni_rust_tests"
     },
     {
       "name": "microdroid_manager_test"
     },
     {
-      "name": "virtualizationservice_device_test"
+      "name": "rialto_test"
+    },
+    {
+      "name": "virtualizationmanager_device_test"
+    },
+    {
+      "name": "vm.test"
+    },
+    {
+      "name": "vmbase_example.integration_test"
     }
   ]
 }
