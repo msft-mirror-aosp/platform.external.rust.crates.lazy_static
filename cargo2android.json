@@ -13,5 +13,6 @@
     "tests/no_std.rs"
   ],
   "tests": true,
-  "vendor-available": true
+  "vendor-available": true,
+  "product-available": true
 }
