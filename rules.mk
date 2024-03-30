@@ -8,7 +8,4 @@ MODULE_SRCS := \
 	$(LOCAL_DIR)/src/lib.rs \
 
 MODULE_RUST_EDITION := 2015
-MODULE_LIBRARY_DEPS := \
-	external/rust/crates/spin \
-
 include make/library.mk
