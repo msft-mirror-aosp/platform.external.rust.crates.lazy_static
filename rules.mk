@@ -8,15 +8,23 @@ MODULE := $(LOCAL_DIR)
 MODULE_CRATE_NAME := lazy_static
 MODULE_RUST_CRATE_TYPES := rlib
 MODULE_SRCS := $(LOCAL_DIR)/src/lib.rs
-MODULE_ADD_IMPLICIT_DEPS := false
 MODULE_RUST_EDITION := 2015
+MODULE_LIBRARY_DEPS := \
+	
+ifeq ($(call TOBOOL,$(TRUSTY_USERSPACE)),false)
+
+# avoid cyclic dependence by adding dependencies manually
+MODULE_ADD_IMPLICIT_DEPS := false
+
 MODULE_RUSTFLAGS += \
 	--cfg 'feature="spin"' \
-	--cfg 'feature="spin_no_std"'
+	--cfg 'feature="spin_no_std"' \
 
-MODULE_LIBRARY_DEPS := \
+MODULE_DEPS := \
 	external/rust/crates/spin \
 	trusty/user/base/lib/libcompiler_builtins-rust \
 	trusty/user/base/lib/libcore-rust
+
+endif
 
 include make/library.mk
