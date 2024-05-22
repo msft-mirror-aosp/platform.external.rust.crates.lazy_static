@@ -7,7 +7,8 @@
     "lazy_static": {
       "dep_blocklist": [
         "libdoc_comment"
-      ]
+      ],
+      "rulesmk_patch": "patches/rules.mk.diff"
     }
   },
   "variants": [
@@ -30,6 +31,10 @@
           "no_std": true
         }
       }
+    },
+    {
+      "generate_androidbp": false,
+      "generate_rulesmk": true
     }
   ]
 }
